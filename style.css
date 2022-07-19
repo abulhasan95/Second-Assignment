@@ -1,0 +1,56 @@
+/* google font use */
+
+body {
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: black;
+    width: 788px;
+    height: 341px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 30px;
+    padding-top: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    border-radius: 20px;
+}
+
+.banner {
+
+    margin-bottom: 30px;
+    padding-bottom: 40px;
+}
+
+.container.banner {
+    width: 50px;
+}
+
+h1 {
+    color: whitesmoke;
+    font-size: 40px;
+    font: weight 500px;
+
+}
+
+p {
+    color: whitesmoke;
+    font-size: 12px;
+}
+
+.style {
+    color: whitesmoke;
+}
+
+.live {
+    text-decoration: none;
+    background-color: rgb(173, 13, 13);
+    padding: 7px 20px;
+    color: whitesmoke;
+    font-size: 12px;
+    border-radius: 3px;
+}
