@@ -2,7 +2,7 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-    background: lightgrey;
+
 
 }
 
@@ -43,7 +43,7 @@ main {
 h1 {
     color: whitesmoke;
     font-size: 40px;
-    font: weight 500px;
+    font-weight: 500px;
 
 }
 
@@ -52,7 +52,7 @@ p {
     font-size: 12px;
 }
 
-.style {
+.styles {
     color: whitesmoke;
 }
 
@@ -244,3 +244,23 @@ hr {
 .story {
     text-align: center;
 }
+
+/*----------------------
+ Media Queries
+------------------------ */
+/* Mobile Devices */
+/* @media only screen and (max-width:688px) {
+    .container {
+        width: 100px;
+    }
+
+    .banner {
+
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .style,
+    .players {
+        flex-direction: column;
+    }
+} */
