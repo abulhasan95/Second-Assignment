@@ -8,8 +8,8 @@ body {
 
 main {
     align-items: center;
-    width: 1840px;
-    height: 2580px;
+    width: 2348px;
+    height: 2725px;
     background: white;
     margin-top: 20px;
 
@@ -79,7 +79,19 @@ p {
 
 }
 
-#name {
+#up {
+    background-color: red;
+    color: white;
+}
+
+button {
+    padding: 3px;
+    border-radius: 5px;
+    width: 145px;
+    height: 30px;
+}
+
+.name {
     text-align: center;
     margin-top: 15px;
     margin-bottom: 15px;
@@ -178,6 +190,8 @@ hr {
 .information {
     border: 50%;
     padding-top: 60px;
+    align-items: center;
+    justify-content: center;
 
 }
 
@@ -187,7 +201,7 @@ hr {
     font-size: 10px;
     align-items: center;
     justify-content: space-around;
-    margin: 0%;
+    margin-top: 40px;
     padding: 0%;
 }
 
@@ -196,22 +210,37 @@ hr {
 
 }
 
+.match-schedule p {
+    font-size: 10px;
+}
+
+.match-schedule h3 {
+    font-size: 12px;
+}
+
 .match-schedule img {
-    width: 160px;
-    height: 120px;
+    width: 65px;
+    height: 40px;
+    margin-left: 15px;
+
 }
 
 .match-schedule {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    width: 788px;
-    height: 641px;
-    grid-gap: 15px;
-    margin-top: 40px;
-    margin-left: 40px;
+    grid-template-columns: repeat(3, 1fr);
+    width: 541px;
+    height: 341px;
+    margin-top: 0px;
+
+
 }
 
-.flag {
-    display: grid;
-    grid-template-columns: 4fr, 1;
+.another-flag {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.story {
+    text-align: center;
 }
