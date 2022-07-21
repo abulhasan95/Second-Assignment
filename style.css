@@ -245,6 +245,11 @@ hr {
     text-align: center;
 }
 
+a {
+    background-color: white;
+
+}
+
 /*----------------------
  Media Queries
 ------------------------ */
